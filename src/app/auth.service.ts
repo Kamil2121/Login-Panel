@@ -7,8 +7,8 @@ import { Router } from '@angular/router';
 })
 export class AuthService {
 
-  private registerUrl = 'http://localhost:3000/register';
-  private loginUrl = 'http://localhost:3000/login';
+  private registerUrl = 'https://mylogin-panel.herokuapp.com/register';
+  private loginUrl = 'https://mylogin-panel.herokuapp.com/login';
   constructor(private http: HttpClient, private router: Router) { }
 
   // tslint:disable-next-line: typedef
