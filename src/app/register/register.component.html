@@ -1,0 +1,6 @@
+<form action="" class="box" method="POST">
+  <h1>Register</h1>
+  <input type="text" [(ngModel)]="registerUserData.email" name="email" placeholder="Email" required>
+  <input type="password" [(ngModel)]="registerUserData.password" name="password" placeholder="Password" required>
+  <input type="button" (click)="registerUser()" value="Register now">
+</form>
