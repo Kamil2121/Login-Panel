@@ -5,7 +5,7 @@ const cookieParser = require('cookie-parser');
 const flash = require('connect-flash');
 const routes = require('./routes/index');
 const mongoose = require('mongoose');
-const db = "mongodb://userTest:dUz8fiud0cAjWDnu@test-db-shard-00-00.bby38.mongodb.net:27017,test-db-shard-00-01.bby38.mongodb.net:27017,test-db-shard-00-02.bby38.mongodb.net:27017/<dbname>?ssl=true&replicaSet=atlas-z36uud-shard-0&authSource=admin&retryWrites=true&w=majority";
+const db = "SECRET_KEY";
 
 
 // utworzenie aplikacji serwera
